@@ -10,6 +10,8 @@ describe("UI PoC test" , ()=>{
         cy.navigate()
     });
 
+    //seach location with spacific place
+
     it("search location",()=>{
         latitudAndLongitudePage.typeLocationInput(data.searchData.place);
         latitudAndLongitudePage.clickFindBtn();
@@ -18,7 +20,9 @@ describe("UI PoC test" , ()=>{
         });
     });
 
-    it.only("search a place",()=>{
+    //search a place and validate correct information about place
+
+    it("search a place",()=>{
         placesPage.clickTopNavBtn("Places");
         placesPage.clickPlaceNamebtn(data.placeData.placeName);
 

@@ -2,6 +2,7 @@ import { method } from "cypress/types/bluebird";
 
 class bookStore{
 
+    // abstaccion layer for endPoints
     endPoints = {
 
         getBooks: {
@@ -14,6 +15,9 @@ class bookStore{
         }
     };
 
+    //API methods response
+
+    //return "Books" reponse
     getBookList(){
         return cy.request({
             method: this.endPoints.getBooks.method,
@@ -21,6 +25,7 @@ class bookStore{
         });
     }
 
+    //return Book by isbn(id) response
     getBookByISBN(isbn : string){
         return cy.request({
             method: this.endPoints.getBooksByISBN.method,

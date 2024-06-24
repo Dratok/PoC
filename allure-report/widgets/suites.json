@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"faa16f93fe4deb7d0d82100941f2eb29","name":"API Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"442f0c232f888e6ca0b18447d7024624","name":"UI PoC test","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

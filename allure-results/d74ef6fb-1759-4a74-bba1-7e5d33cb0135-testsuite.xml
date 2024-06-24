@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719249368481' stop='1719249369678'>
+    <name>API Tests</name>
+    <title>API Tests</title>
+    <test-cases>
+        <test-case start='1719249368481' status='passed' stop='1719249369155'>
+            <name>validate books list</name>
+            <title>validate books list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719249369157' status='passed' stop='1719249369327'>
+            <name>search book by ISBN</name>
+            <title>search book by ISBN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719249369329' status='passed' stop='1719249369502'>
+            <name>search book by ISBN</name>
+            <title>search book by ISBN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719249369503' status='passed' stop='1719249369678'>
+            <name>search book by ISBN</name>
+            <title>search book by ISBN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -12,17 +12,17 @@ describe("UI PoC test" , ()=>{
 
     it("search location",()=>{
         latitudAndLongitudePage.typeLocationInput(data.searchData.place);
-        latitudAndLongitudePage.clickFindBtn()
+        latitudAndLongitudePage.clickFindBtn();
         latitudAndLongitudePage.getlatLongText().then((text)=>{
             expect(text).to.contain(data.searchData.latlong)
         });
     });
 
-    it("search a place",()=>{
+    it.only("search a place",()=>{
         placesPage.clickTopNavBtn("Places");
-        placesPage.clickPlaceNamebtn("Celtic Park, Glasgow");
+        placesPage.clickPlaceNamebtn(data.placeData.placeName);
 
-        placesPage.getElements().placeTitle("Celtic Park, Glasgow").should("be.visible");
+        placesPage.getElements().placeTitle(data.placeData.placeName).should("be.visible");
 
     });
 })

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719249371034' stop='1719249392362'>
+    <name>UI PoC test</name>
+    <title>UI PoC test</title>
+    <test-cases>
+        <test-case start='1719249371034' status='passed' stop='1719249392362'>
+            <name>search a place</name>
+            <title>search a place</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
